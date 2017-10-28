@@ -1,0 +1,27 @@
+{
+  "name": "zici-cli",
+  "version": "0.1.2",
+  "description": "An en-to-cn translation repl",
+  "main": "./lib/bing.js",
+  "bin": {
+    "zici": "./bin/zici"
+  },
+  "keywords": [
+    "translate",
+    "translation",
+    "zici",
+    "chinese"
+  ],
+  "repository": "git@github.com:zicijs/zici-cli.git",
+  "author": "lonr <lonr@live.cn> (https://github.com/lonr)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "xmldom": "^0.1.27",
+    "xpath": "^0.0.24"
+  }
+}
